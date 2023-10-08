@@ -2,6 +2,7 @@ import time
 from tqdm import tqdm
 import pandas as pd
 import numpy as np
+
 from util.read_data import read_txt_distance_matrix
 from util.distance import calculate_city_distance
 from util.evolutionary_utils import generate_population, linearly_ranking, sus, recombination, mutation
